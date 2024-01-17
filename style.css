@@ -1,3 +1,77 @@
 *{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+/*Titles*/
+.title{
+    text-align: center;
+    font-size: 500%;
+}
+
+#greenarrow{
+    color: green;
+}
+#harleyquinn , #deadpool{
+    color: red
+}
+#harleyquinn > span {
+    color:blue;
+    font-size: 170%;
+}
+
+.sub.title{
+    font-size: 300%;
+}
+/*Paragraphs*/
+.description{
+    font-size: 30px;
+    text-align: center;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+}
+.summary{
+    font-size: 40px;
+}
+
+/*Return Home buttons*/
+button#home {
+    background-color: goldenrod;
+}
+
+button#home > a{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+
+button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+}
+/*Recipe buttons*/
+button.recipe > a{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+button#greenarrow{
+    background-color: green;
     
+}
+
+button#harleyquinn{
+    background-color: blue;
+}
+button#deadpool{
+    background-color: red;
 }
