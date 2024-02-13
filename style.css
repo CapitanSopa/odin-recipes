@@ -42,6 +42,7 @@
 /*Return Home buttons*/
 button#home {
     background-color: goldenrod;
+    padding: 5px;
 }
 
 button#home > a{
